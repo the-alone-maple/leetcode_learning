@@ -5,12 +5,18 @@ an leetcode program experience
     Code：
     public int threeSumClosest(int[] num, int target) {
         Arrays.sort(num);
+        
         int result = num[0]+num[1]+num[2];
+        
         for (int i = 0; i < num.length - 2; i++) {
+        
             int start = i + 1, end = num.length - 1;
-             while (start < end) {
-                 int sum = num[i] + num[start] + num[end];
-                 if (sum > target)
+            
+            while (start < end) {
+            
+                int sum = num[i] + num[start] + num[end];
+                
+                if (sum > target)
                  {
                      end--;
                  } else {
