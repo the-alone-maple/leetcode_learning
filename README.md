@@ -1,7 +1,7 @@
 # leetcode_learning
 an leetcode program experience
 
-<h1>1</h1>.3sum-closest(哈希、排序)
+<h3>1.3sum-closest(哈希、排序)</h3>
 
     Code：
     public int threeSumClosest(int[] num, int target) {
